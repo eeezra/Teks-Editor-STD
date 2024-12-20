@@ -49,7 +49,6 @@ void push(Stack &S, infotypeStack data);
 void pop(Stack &S, infotypeStack &data);
 
 void tambahTeks(List &L, adr &cursor, adr ptr);
-void tambahTeksByIndex(List &L, int posisi, adr ptr);
 void deletechar(List &L, adr &cursor, adr &ptr);
 void showTeks(List L);
 void undo(Stack &history, Stack &redoStack, List &L, adr &cursor);
